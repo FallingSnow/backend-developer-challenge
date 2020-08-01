@@ -38,6 +38,7 @@ Tests are designed to be parallelized and isolated (one test does not in anyway 
 - Schema validation for new rentals/changes using [yup](https://www.npmjs.com/package/yup)
 - Rental query filtering/limiting
 - Git hooks for testing scripts, commit language, linting, etc..
+- SSL/TLS
 
 ## Installation
 
@@ -52,6 +53,8 @@ yarn install
 ```bash
 yarn start
 ```
+
+The endpoint should now be reachable at `http://localhost:8080/api/v1`.
 
 ## Testing
 
@@ -68,8 +71,8 @@ You can load http-archive.har (located in the root directory) into your preferre
 [MIT](https://choosealicense.com/licenses/mit/)
 
 ### Timing
-1705 - 2140 Architecture design, data design, coding, testing
-1415 - 1610 Implement endpoints and tests
+1705 - 2140 Architecture design, data design, coding, testing<br>
+1415 - 1610 Implement endpoints and tests<br>
 2000 - 2030 Documentation for API
 
 Total time: 7 Hours
