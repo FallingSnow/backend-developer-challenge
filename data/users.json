@@ -1,0 +1,12 @@
+[
+  {
+    "id": "3a9eee02-d2d6-11ea-87d0-0242ac130003",
+    "email": "demo.man@example.com",
+    "name": {
+      "first": "demo",
+      "last": "man"
+    },
+    "password": "$argon2id$v=19$m=16,t=2,p=1$YXloc2pWOXJMTkc4ZXo0eQ$+LWDyHuCiIsOzIq0hX4YRA",
+    "__password": "demo"
+  }
+]

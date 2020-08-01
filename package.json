@@ -1,0 +1,40 @@
+{
+  "name": "backend-developer-challenge",
+  "version": "0.1.0",
+  "description": "An API for property rental information.",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon bin/bdc.mjs",
+    "test": "ava"
+  },
+  "repository": "https://github.com/FallingSnow/backend-developer-challenge",
+  "author": "Ayrton Sparling",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@ava/babel": "^1.0.1",
+    "ava": "^3.11.0",
+    "got": "^11.5.1",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "argon2": "^0.26.2",
+    "express": "^4.17.1",
+    "express-basic-auth": "^1.2.0",
+    "express-jwt": "^6.0.0",
+    "express-promise-router": "^4.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "uuid": "^8.3.0"
+  },
+  "variables": {
+    "SECRET": "tPu]zy}#8Sr||NVZC^%|[vgMz&qc1j3W6n/=wX+L6>)h0@2Y:+%OWa[rKUJGN(,"
+  },
+  "ava": {
+    "babel": true,
+    "files": [
+      "tests/**/**.spec.mjs"
+    ]
+  }
+}
